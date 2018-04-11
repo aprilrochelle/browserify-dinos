@@ -1,3 +1,4 @@
+const events = require(./events);
 const outputDiv = document.getElementById('dinos');
 
 const domString = (dinos) => {
