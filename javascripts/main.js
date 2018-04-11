@@ -1,1 +1,3 @@
-console.log('heyyy');
+const data = require('./data');
+
+data.initializer();
