@@ -1,3 +1,21 @@
 body {
-  background-color: yellowgreen;
+  background-color: darkslateblue;
+}
+.dinos {
+  width: 20%;
+  background-color: white;
+  margin: 5px solid rgb(2, 209, 255);
+  text-align: center;
+  display: inline-block;
+  height: 350px;
+  margin: 2%;
+  vertical-align: top;
+}
+
+.dinoPic {
+  width: 70%;
+}
+
+.bright-color {
+  background-color: greenyellow;
 }

@@ -1,13 +1,13 @@
-const events = require(./events);
+const domEvents = require('./events');
 const outputDiv = document.getElementById('dinos');
 
 const domString = (dinos) => {
   let strang = '';
   dinos.forEach((dino) => {
-    strang += `<div class="dinos">`;
-    strang += `<h2>${dino.type}</h2>`;
-    strang += `<img src="${dino.img}">`;
-    strang += `</div>`;
+    strang +=     `<div class="dinos">`;
+    strang +=       `<h2 class="dinoName">${dino.type}</h2>`;
+    strang +=       `<img class="dinoPic" src="${dino.img}">`;
+    strang +=     `</div>`;
   });
   return strang;
 };
